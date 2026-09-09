@@ -6,7 +6,8 @@ def button_callback():
 app = customtkinter.CTk()
 app.geometry("400x150")
 
-button = customtkinter.CTkButton(app, text="my button", command=button_callback)
+button = customtkinter.CTkButton(app, text="Enter the Matrix", command=button_callback)
 button.pack(padx=20, pady=20)
 
 app.mainloop()
+
